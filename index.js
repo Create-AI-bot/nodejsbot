@@ -53,14 +53,7 @@ client.on("guildMemberAdd", (member) => {
   
     byeChannel.send(`<@${deleteUser.id}> ${byeChannelComment}\n`);
   });
-  
-  client.on('message', (message) => {
-    if(message.author.bot) return;
-  
-    if(message.content === 'ping') {
-      message.reply('pong');
-    }
-  });
+    
 
 
   // 전체공지
