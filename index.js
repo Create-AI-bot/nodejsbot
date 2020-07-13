@@ -29,8 +29,8 @@ client.on("guildMemberAdd", (member) => {
 
 // 메세지 받아치기
 client.on('message', (message) => {
-  if(message.content === 'ping') {
-    message.reply('pong');
+  if(message.content === '지건') {
+    message.reply('윽 니 지건이 제일 아파..');
   }
 });
 
